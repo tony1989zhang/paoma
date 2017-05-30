@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 文字颜色和背景都写在这个文件中 item中的color是文字颜色，里面的是背景-->
+
+    <item android:color="@color/white" android:state_checked="false">
+        <shape android:shape="oval"
+            android:useLevel="false"
+            >
+            <padding
+                android:bottom="4dp"
+                android:left="8dp"
+                android:right="8dp"
+                android:top="4dp"/>
+            <!--<padding-->
+                <!--android:bottom="8dp"-->
+                <!--android:left="8dp"-->
+                <!--android:right="8dp"-->
+                <!--android:top="8dp"-->
+                <!--/>-->
+            <solid android:color="@color/red"/>
+            <!--<corners android:radius="@dimen/corner_radius"/>-->
+            <size android:width="4dp"
+                android:height="4dp"/>
+            <stroke android:width="@dimen/line" android:color="@color/red"/>
+        </shape>
+    </item>
+
+    <item android:color="@color/red"  >
+        <shape android:shape="oval"
+            android:useLevel="false"
+            >
+            <padding
+                android:bottom="4dp"
+                android:left="8dp"
+                android:right="8dp"
+                android:top="4dp"/>
+            <!--<padding-->
+            <!--android:bottom="8dp"-->
+            <!--android:left="8dp"-->
+            <!--android:right="8dp"-->
+            <!--android:top="8dp"-->
+            <!--/>-->
+            <solid android:color="@color/red"/>
+            <!--<corners android:radius="@dimen/corner_radius"/>-->
+            <size android:width="4dp"
+                android:height="4dp"/>
+            <stroke android:width="@dimen/line" android:color="@color/red"/>
+        </shape>
+    </item>
+    <!--<item android:color="@color/red"  >-->
+        <!--<shape android:shape="oval"-->
+            <!--android:useLevel="false"-->
+            <!--&gt;-->
+            <!--<padding-->
+                <!--android:bottom="4dp"-->
+                <!--android:left="8dp"-->
+                <!--android:right="8dp"-->
+                <!--android:top="4dp"/>-->
+            <!--<solid android:color="@color/white"/>-->
+            <!--&lt;!&ndash;<corners android:radius="@dimen/corner_radius"/>&ndash;&gt;-->
+            <!--<size android:width="4dp"-->
+                <!--android:height="4dp"/>-->
+            <!--<stroke android:width="@dimen/line" android:color="@color/red"/>-->
+        <!--</shape>-->
+    <!--</item>-->
+</selector>
